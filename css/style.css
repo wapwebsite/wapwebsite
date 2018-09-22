@@ -1,0 +1,134 @@
+.bounds {
+	height:20px;
+	background-color: #2F384B;
+}
+
+.text {
+	color: #2F384B;
+}
+
+.text--large {
+	font-size: 50px;	
+}
+
+.text--heading {
+	font-family: 'Merriweather', 'Times New Roman', Times, serif;
+	margin-bottom:20px;	
+}
+
+.text--emphasize {
+	font-weight:700;
+}
+
+.text__body {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.text--italic {
+	font-style: italic;
+}
+
+#bootstrapoverride a {
+	color: #2F384B;
+	-webkit-transition: all .1s ease-in-out; 
+    transition: all .1s ease-in-out;
+}
+
+#bootstrapoverride a:hover {
+	text-decoration:none;
+	color: #883B95;
+	padding-bottom:3px;
+	border-bottom: 2px solid #883B95;
+}
+
+.button-primary {
+	border:2px solid #883B95;
+	color:#883B95;
+	padding:15px 70px;
+	border-radius: 50px;
+	font-family: 'Lato', sans-serif;
+	font-size: 11px;
+	font-weight:700;
+	text-transform:uppercase;
+	margin-top:20px;
+	-webkit-transition: all .5s ease-in-out; 
+    transition: all .5s ease-in-out;
+}
+
+.button-primary:hover, .button-primary:focus, .button-primary:active {
+	background-color:#883B95;
+	color:white;
+	outline:0;
+}
+
+#bootstrapoverride .stripe {
+	background-color:#2F384B;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:350px;
+}
+
+.container__body {
+	height:100vh;
+	display:flex;
+	border-top:20px solid #2F384B;
+	border-bottom:20px solid #2F384B;
+}
+
+#bootstrapoverride .container__body .row {
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.container__contact-header {
+	padding: 50px 0px 15px 0px;
+}
+
+.container__contact-info {
+	padding: 0px 0px 50px 0px;
+}
+
+.container__footer {
+	background-color: #F9F9FB;
+	border-bottom:20px solid #2F384B;
+}
+
+.iframe__pdf {
+	max-width: 666.67px;
+	max-height: 1000px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+	margin-left: auto !important;
+    margin-right: auto !important;
+	-webkit-overflow-scrolling: touch; 
+	overflow: auto;
+}
+
+.iframe__wrapper {
+  position: relative;
+  height: 0;    /* gets height from padding-bottom */
+  overflow: hidden;
+}
+
+.iframe__wrapper img,
+.iframe__wrapper object,
+.iframe__wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.iframe__responsive-wrapper {
+  padding-bottom: 100%;
+}
